@@ -100,6 +100,12 @@ export const GeneralEnquiry = styled.div`
   border-radius: 6px;
   width: 100%;
   height: 40px;
+
+  input {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+  }
 `;
 
 export const Support = styled.div`
@@ -111,6 +117,12 @@ export const Support = styled.div`
   border-radius: 6px;
   width: 100%;
   height: 40px;
+
+  input {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+  }
 `;
 
 export const MessageContainer = styled.div``;
@@ -118,6 +130,7 @@ export const MessageContainer = styled.div``;
 export const Message = styled.div`
   display: flex;
   flex-direction: column;
+  gap: 8px;
 
   textarea {
     width: 100%;
@@ -127,4 +140,13 @@ export const Message = styled.div`
 
 export const ConsentContainer = styled.div``;
 
-export const Consent = styled.div``;
+export const Consent = styled.div`
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  input {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+  }
+`;
